@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sports & Activities</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f3f3f3;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #030000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(241, 245, 17, 0.87);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #111010;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(248, 8, 8);
+  color: black;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align:left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="#home & About">Home & About</a>
+    <a href="#news">Sports & Activities</a>
+    <a href="#contact">Contact us</a>
+    <input type="text" placeholder="Search..">
+  </div>
+  
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 7</div>
+  <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/278452268_504982664429864_5516676174511827249_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=80T8HMmVikgAX_blZTC&_nc_oc=AQlrLbPNBh3dxqUeFf3wr9BJqp8fRS4jhzhmLmqFaQ28I-3V6ITejLf0NLzZBqxi_W8&_nc_ht=scontent-cpt1-1.xx&oh=00_AT_jkP102T-QJ-bVyhQJR-fQDb7YHy8rO1hKJN5yEskwNQ&oe=63357B70" style="width:100%">
+  <div class="text">The U/15 Soccer Team</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 7</div>
+  <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/299978475_585978396330290_8985670371968824387_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=UbtauLezEfUAX-Tu-SX&_nc_ht=scontent-cpt1-1.xx&oh=00_AT9wUY4qaRzXWu50TMHYa8-ZoWMIKN7qwcYBwqEZQosLFw&oe=633741B6" style="width:100%">
+  <div class="text">The Rugby Team</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/300179863_582224270039036_8124772303761460205_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BnA6jNnP4zQAX9c94qI&_nc_ht=scontent-cpt1-1.xx&oh=00_AT_t9nh_9YCIdI3Cwf08bk4eBjrndGkzMy6G4Ud-XmTw_g&oe=63356ABD" style="width:100%">
+  <div class="text">The Netball Team</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 7</div>
+  <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/299023921_582166150044848_8282071855625370498_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=NVbOknqk3jAAX_cJjJH&_nc_ht=scontent-cpt1-1.xx&oh=00_AT8tluuJ7n7y70mUty3nJMEyAfDtlkh54sIIruqD0YW-TA&oe=63356641" style="width:100%">
+  <div class="text">The Chess Club
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 7</div>
+  <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/294844426_562869801974483_9057358047553423184_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=wLWzGozrZvMAX8L5izB&_nc_ht=scontent-cpt1-1.xx&oh=00_AT_acIeclb-mJ_2m-ekjL-RNA54KlHooXsnWiJ0RJLp5mA&oe=6335E72B" style="width:100%">
+  <div class="text">Talent Show</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6/ 7</div>
+  <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/299804464_582354170026046_1399066029626544534_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=uzoFcsEFtAwAX9hfsyt&_nc_oc=AQnwrCNciOM49QXc5gkROuoiQBT4rWsHlb9Yy-hHsSEsrgj3TD8h6LajZLVgPmuvT4s&_nc_ht=scontent-cpt1-1.xx&oh=00_AT9anKixVr6JjUpDrgU_8XA7JxPlBhH37eGR3uDOY1FVCQ&oe=63358C4D" style="width:100%">
+  <div class="text">Players And Supporters</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t39.30808-6/295073403_564593205135476_8792038989563779453_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=TGZhojBWX2sAX9UK3l7&_nc_ht=scontent-cpt1-1.xx&oh=00_AT9aLwcgJSdHi0Pw_FLYdZEQGiEkS4QfQGEkoMkb-Moatw&oe=63367D94" style="width:100%">
+  <div class="text">Supporters at the talent show</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
